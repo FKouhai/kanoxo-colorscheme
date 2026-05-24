@@ -241,6 +241,8 @@ function M.setup(spec)
   hi("SnacksDashboardIcon",   { fg = s.type })
   hi("SnacksPickerBorder",    { fg = e.bg_sel })
   hi("SnacksPickerMatch",     { fg = e.match,    bold = true })
+  link("SnacksPickerDir",  "Directory")
+  link("SnacksPickerFile", "Normal")
 
   -- ─── Noice / Notify ──────────────────────────────────────────────────────────
   hi("NoiceConfirmBorder",       { fg = d.hint })
