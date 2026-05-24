@@ -1,0 +1,1 @@
+require("kanoxo").load("wave")
