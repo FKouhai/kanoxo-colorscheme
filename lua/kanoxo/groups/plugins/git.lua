@@ -1,7 +1,6 @@
 local M = {}
 
 function M.get(spec)
-  local e = spec.editor
   local g = spec.git
 
   return {
@@ -11,8 +10,9 @@ function M.get(spec)
     GitSignsAddNr    = { link = "GitSignsAdd" },
     GitSignsChangeNr = { link = "GitSignsChange" },
     GitSignsDeleteNr = { link = "GitSignsDelete" },
-    GitSignsAddLn    = { bg = e.bg_dim },
-    GitSignsChangeLn = { bg = e.bg_dim },
+    GitSignsAddLn    = { bg = g.add_bg },
+    GitSignsChangeLn = { bg = g.change_bg },
+    GitSignsDeleteLn = { bg = g.delete_bg },
     GitSignsCurrentLineBlame = { link = "Comment" },
 
     -- neogit + diffview fall back to core diff/git

@@ -34,8 +34,11 @@ function M.get(p)
     diag = {
       error = p.red,
       warn  = p.yellow,
-      info  = p.teal,
-      hint  = p.blue,
+      -- info=blue is conventional (func is also blue, but diagnostics
+      -- and code occupy different UI areas so they rarely clash).
+      info  = p.blue,
+      -- hint reuses teal at a different lightness than type via teal_br.
+      hint  = p.teal_br,
       ok    = p.green,
     },
     git = {
@@ -43,6 +46,9 @@ function M.get(p)
       change = p.yellow,
       delete = p.red,
       text   = p.blue,
+      add_bg    = p.diff_add_bg,
+      change_bg = p.diff_change_bg,
+      delete_bg = p.diff_delete_bg,
     },
     terminal = {
       [0]  = p.black,

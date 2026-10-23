@@ -8,10 +8,10 @@ A Neovim colorscheme blending [Kanagawa](https://github.com/rebelot/kanagawa.nvi
 |---|---|---|
 | Background | `#1c1c24` | `#181616` |
 | Foreground | `#dcd7ba` | `#cac8c0` |
-| Functions | `#80aaff` | `#90b0cc` |
-| Keywords | `#b08cf0` | `#b098e0` |
-| Strings | `#5cc070` | `#70b870` |
-| Types | `#38ccc4` | `#48b8b0` |
+| Functions | `#80aaff` | `#8aa3b8` |
+| Keywords | `#b08cf0` | `#9c8ec2` |
+| Strings | `#5cc070` | `#8aaa8a` |
+| Types | `#3fd0c9` | `#6f9a8d` |
 
 ## Requirements
 
@@ -177,36 +177,36 @@ Both options require the overlay to be applied so `pkgs.vimPlugins.kanoxo` resol
 | Role | Color | Preview |
 |------|-------|---------|
 | Background | `#1c1c24` | ![](https://placehold.co/16x16/1c1c24/1c1c24.png) |
-| Background dim | `#16161f` | ![](https://placehold.co/16x16/16161f/16161f.png) |
-| Selection | `#252334` | ![](https://placehold.co/16x16/252334/252334.png) |
-| Comments | `#5f5c78` | ![](https://placehold.co/16x16/5f5c78/5f5c78.png) |
+| Background dim | `#16161d` | ![](https://placehold.co/16x16/16161d/16161d.png) |
+| Selection | `#2a2740` | ![](https://placehold.co/16x16/2a2740/2a2740.png) |
+| Comments | `#76718d` | ![](https://placehold.co/16x16/76718d/76718d.png) |
 | Foreground | `#dcd7ba` | ![](https://placehold.co/16x16/dcd7ba/dcd7ba.png) |
-| Red | `#d04870` | ![](https://placehold.co/16x16/d04870/d04870.png) |
+| Red | `#e5486a` | ![](https://placehold.co/16x16/e5486a/e5486a.png) |
 | Orange | `#e89060` | ![](https://placehold.co/16x16/e89060/e89060.png) |
-| Yellow | `#c8aa72` | ![](https://placehold.co/16x16/c8aa72/c8aa72.png) |
+| Yellow | `#d9a656` | ![](https://placehold.co/16x16/d9a656/d9a656.png) |
 | Green | `#5cc070` | ![](https://placehold.co/16x16/5cc070/5cc070.png) |
-| Teal | `#38ccc4` | ![](https://placehold.co/16x16/38ccc4/38ccc4.png) |
+| Teal | `#3fd0c9` | ![](https://placehold.co/16x16/3fd0c9/3fd0c9.png) |
 | Blue | `#80aaff` | ![](https://placehold.co/16x16/80aaff/80aaff.png) |
 | Purple | `#b08cf0` | ![](https://placehold.co/16x16/b08cf0/b08cf0.png) |
-| Pink | `#d880a8` | ![](https://placehold.co/16x16/d880a8/d880a8.png) |
+| Pink | `#e09ab5` | ![](https://placehold.co/16x16/e09ab5/e09ab5.png) |
 
 ### Dragon
 
 | Role | Color | Preview |
 |------|-------|---------|
 | Background | `#181616` | ![](https://placehold.co/16x16/181616/181616.png) |
-| Background dim | `#1e1c1c` | ![](https://placehold.co/16x16/1e1c1c/1e1c1c.png) |
-| Selection | `#272525` | ![](https://placehold.co/16x16/272525/272525.png) |
-| Comments | `#555055` | ![](https://placehold.co/16x16/555055/555055.png) |
+| Background dim | `#131111` | ![](https://placehold.co/16x16/131111/131111.png) |
+| Selection | `#2d2a2a` | ![](https://placehold.co/16x16/2d2a2a/2d2a2a.png) |
+| Comments | `#7c6c6c` | ![](https://placehold.co/16x16/7c6c6c/7c6c6c.png) |
 | Foreground | `#cac8c0` | ![](https://placehold.co/16x16/cac8c0/cac8c0.png) |
-| Red | `#cc6080` | ![](https://placehold.co/16x16/cc6080/cc6080.png) |
-| Orange | `#c8886a` | ![](https://placehold.co/16x16/c8886a/c8886a.png) |
-| Yellow | `#c4b08a` | ![](https://placehold.co/16x16/c4b08a/c4b08a.png) |
-| Green | `#70b870` | ![](https://placehold.co/16x16/70b870/70b870.png) |
-| Teal | `#48b8b0` | ![](https://placehold.co/16x16/48b8b0/48b8b0.png) |
-| Blue | `#90b0cc` | ![](https://placehold.co/16x16/90b0cc/90b0cc.png) |
-| Purple | `#b098e0` | ![](https://placehold.co/16x16/b098e0/b098e0.png) |
-| Pink | `#c88098` | ![](https://placehold.co/16x16/c88098/c88098.png) |
+| Red | `#c07070` | ![](https://placehold.co/16x16/c07070/c07070.png) |
+| Orange | `#c08a5e` | ![](https://placehold.co/16x16/c08a5e/c08a5e.png) |
+| Yellow | `#c4a882` | ![](https://placehold.co/16x16/c4a882/c4a882.png) |
+| Green | `#8aaa8a` | ![](https://placehold.co/16x16/8aaa8a/8aaa8a.png) |
+| Teal | `#6f9a8d` | ![](https://placehold.co/16x16/6f9a8d/6f9a8d.png) |
+| Blue | `#8aa3b8` | ![](https://placehold.co/16x16/8aa3b8/8aa3b8.png) |
+| Purple | `#9c8ec2` | ![](https://placehold.co/16x16/9c8ec2/9c8ec2.png) |
+| Pink | `#c1949c` | ![](https://placehold.co/16x16/c1949c/c1949c.png) |
 
 ## Plugin support
 

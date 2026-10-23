@@ -5,13 +5,13 @@ function M.get(spec)
   local g = spec.git
 
   return {
-    DiffAdd    = { fg = g.add },
-    DiffChange = { fg = g.change },
-    DiffDelete = { fg = g.delete },
+    DiffAdd    = { fg = g.add, bg = g.add_bg },
+    DiffChange = { fg = g.change, bg = g.change_bg },
+    DiffDelete = { fg = g.delete, bg = g.delete_bg },
     DiffText   = { fg = g.text, bg = e.bg_sel },
-    Added      = { fg = g.add },
-    Changed    = { fg = g.change },
-    Removed    = { fg = g.delete },
+    Added      = { fg = g.add, bg = g.add_bg },
+    Changed    = { fg = g.change, bg = g.change_bg },
+    Removed    = { fg = g.delete, bg = g.delete_bg },
 
     -- neogit / diffview / gitsigns extras fall back to core diff
     DiffAdded            = { link = "DiffAdd" },
