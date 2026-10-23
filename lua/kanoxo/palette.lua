@@ -4,8 +4,11 @@ M.wave = {
   -- backgrounds
   bg       = "#1c1c24",
   bg_dim   = "#16161f",
+  bg_dark  = "#101016",
   bg_sel   = "#252334",
-  bg_float = "#1c1c24",
+  bg_float = "#20202e",
+  bg_menu  = "#1a1a26",
+  border   = "#35324a",
   -- foregrounds
   fg       = "#dcd7ba",
   fg_dim   = "#c8c4a0",
@@ -35,8 +38,11 @@ M.dragon = {
   -- backgrounds
   bg       = "#181616",
   bg_dim   = "#1e1c1c",
+  bg_dark  = "#0f0e0e",
   bg_sel   = "#272525",
-  bg_float = "#181616",
+  bg_float = "#201e1e",
+  bg_menu  = "#1c1a1a",
+  border   = "#322f2f",
   -- foregrounds
   fg       = "#cac8c0",
   fg_dim   = "#b8b4ac",

@@ -104,8 +104,24 @@ require("kanoxo").setup({
   -- remove background highlights (useful for transparent terminals)
   transparent = false,
 
+  -- dim inactive windows (NormalNC uses bg_dim when true, links Normal when false)
+  dimInactive = false,
+
   -- populate vim.g.terminal_color_0 … terminal_color_15
   terminal_colors = true,
+
+  -- italic styles (set italic = false to disable)
+  styles = {
+    comments  = { italic = true },
+    keywords  = { italic = true },
+    functions = {},
+  },
+
+  -- direct highlight overrides: { Normal = { fg = "#ffffff" } }
+  overrides = {},
+
+  -- last-chance hook: function(highlights, spec) end
+  on_highlights = nil,
 })
 ```
 
@@ -194,7 +210,7 @@ Both options require the overlay to be applied so `pkgs.vimPlugins.kanoxo` resol
 
 ## Plugin support
 
-Built-in highlight groups for: GitSigns, Telescope, Snacks, Noice, nvim-notify, Blink/CMP, Oil, Trouble, Which-key, Mini, Lualine, Indent Blankline.
+Core `NormalFloat` / `FloatBorder` / `FloatTitle` fallbacks plus link-first groups for: GitSigns, Neogit, Diffview, Telescope, FzfLua, Snacks, Noice, nvim-notify, Blink/CMP, Oil, NvimTree, Neo-tree, Trouble, Which-key, Mini, Indent Blankline, Rainbow Delimiters, Lazy, Mason, DAP, Flash/Leap, Treesitter-context, Aerial, Illuminate, Navic, BufferLine, Dashboard, RenderMarkdown. Lualine themes: `kanoxo_wave`, `kanoxo_dragon`. Unknown plugins degrade to core groups; use `overrides` / `on_highlights` for the rest.
 
 ## License
 

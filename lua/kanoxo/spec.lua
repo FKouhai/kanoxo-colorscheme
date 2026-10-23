@@ -7,8 +7,11 @@ function M.get(p)
     editor = {
       bg        = p.bg,
       bg_dim    = p.bg_dim,
+      bg_dark   = p.bg_dark,
       bg_sel    = p.bg_sel,
       bg_float  = p.bg_float,
+      bg_menu   = p.bg_menu,
+      border    = p.border,
       fg        = p.fg,
       fg_dim    = p.fg_dim,
       fg_dark   = p.fg_dark,
